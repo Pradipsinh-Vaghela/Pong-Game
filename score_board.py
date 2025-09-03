@@ -22,7 +22,6 @@ class ScoreBoard(Turtle):
             self.goto(R_POSITION)
             self.write(self.r_score, align=ALIGN, font=FONT)
 
-
         def l_point(self):
             self.l_score += 1
             self.update_scoreboard()
